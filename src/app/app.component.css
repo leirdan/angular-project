@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300;400&display=swap');
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  color: white;
+  text-align: center;
+}
+.subtitle {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}

@@ -1,11 +1,13 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
+import {CardComponent} from "./components/card/card.component";
 
+// Carrega todos os componentes da aplicação e exporta para o main.ts
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, CardComponent
   ],
   imports: [
     BrowserModule
@@ -13,4 +15,5 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

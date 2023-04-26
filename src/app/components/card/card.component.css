@@ -1,0 +1,17 @@
+.card {
+  padding:1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20rem;
+  background: white;
+  border: 1px dashed aquamarine;
+}
+
+.card-left {
+  width: 60%;
+}
+
+.card-right{
+  width: 40%;
+}

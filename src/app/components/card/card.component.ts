@@ -8,5 +8,6 @@ import {Component} from "@angular/core"
 export class CardComponent {
   title = "Phantasy Star I"
   description = `Jogo de RPG 8-bits lançados nos anos 1980, foi uma completa revolução na maneira de se fazer RPGs, mas que hoje não é muito
-    conhecido :(`
+    conhecido.`
+  urlImg = "https://th.bing.com/th/id/OIP.ewYM1gNSXgfbOqV7hbMbggHaKQ?pid=ImgDet&rs=1";
 }

@@ -1,17 +1,43 @@
 .card {
-  padding:1rem;
+  padding: 1rem;
+  margin: 1rem;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  width: 20rem;
+  width: 30rem;
   background: white;
-  border: 1px dashed aquamarine;
+  border-left: 1px dashed aquamarine;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-top {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: row;
 }
 
 .card-left {
-  width: 60%;
+  text-align: start;
+  width: 20rem;
+  margin-right: 2rem;
 }
 
 .card-right{
-  width: 40%;
+  width: 10rem;
+  padding-right: 1rem;
+}
+
+.card-right img {
+  border-radius: 10px;
+  max-width: 130px;
+}
+
+@media only screen and (max-width: 1660px) {
+  .card-right img {
+    max-width: 100px;
+  }
 }

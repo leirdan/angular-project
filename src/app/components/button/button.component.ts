@@ -1,11 +1,12 @@
-import {Component} from "@angular/core";
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: "btn",
-  templateUrl: "button.component.html",
-  styleUrls: ["button.component.css"]
+  selector: 'btn',
+  templateUrl: 'button.component.html',
+  styleUrls: ['button.component.css'],
 })
 export class ButtonComponent {
-  btnText: string = "ACESSAR"
-   btnClass: string = "btn"
+  @Input() btnLabel: string = '';
+  btnClass: string = 'btn';
+  @Input() linkButton: string = '';
 }

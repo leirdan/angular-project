@@ -1,13 +1,14 @@
-import {Component} from "@angular/core"
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: "card",
-  templateUrl: "./card.component.html",
-  styleUrls: ["./card.component.css"]
+  selector: 'card',
+  templateUrl: './card.component.html',
+  styleUrls: ['./card.component.css'],
 })
 export class CardComponent {
-  title = "Phantasy Star I"
-  description = `Jogo de RPG 8-bits lançados nos anos 1980, foi uma completa revolução na maneira de se fazer RPGs, mas que hoje não é muito
-    conhecido.`
-  urlImg = "https://th.bing.com/th/id/OIP.ewYM1gNSXgfbOqV7hbMbggHaKQ?pid=ImgDet&rs=1";
+  @Input() title = '';
+  @Input() description = '';
+  @Input() urlImg = '';
+  btnDetails = 'VER MAIS';
+  @Input() linkBtn = '';
 }

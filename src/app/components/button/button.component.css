@@ -1,5 +1,26 @@
 .btn {
-  background-color: aquamarine;
   border-radius: 10px;
+  background-color: #ffff00;
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0;
   padding: 1rem;
+  text-align: center;
+  transition: all 200ms;
+}
+
+.btn:hover {
+  background-color: #ffee00;
+}
+
+.btn:active {
+  background-color: hsl(60, 100%, 50%);
+  color: white;
+}
+
+.btn a {
+  text-decoration: none;
 }
